@@ -1,0 +1,42 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# ===== Node / React =====
+node_modules/
+dist/
+build/
+.vite/
+.parcel-cache/
+
+# ===== Environment files =====
+.env
+.env.local
+.env.*.local
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ===== Database =====
+*.db-journal
+*.sqlite-journal
+
+# ===== Logs =====
+logs/
+*.log
+npm-debug.log*
